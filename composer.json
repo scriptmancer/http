@@ -1,0 +1,32 @@
+{
+    "name": "nazim/http",
+    "description": "HTTP foundation for Nazim framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gökhan SARIGÜL",
+            "email": "gsarigul84@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/psr7": "^2.0",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nazim\\Http\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nazim\\Http\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
