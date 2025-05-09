@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Util;
+namespace Scriptmancer\Http\Util;
 
 class JsonSerializer
 {

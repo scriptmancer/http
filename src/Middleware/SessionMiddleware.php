@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Middleware;
+namespace Scriptmancer\Http\Middleware;
 
-use Nazim\Http\Request\Request;
-use Nazim\Http\Response\Response;
-use Nazim\Http\Session\Session;
+use Scriptmancer\Http\Request\Request;
+use Scriptmancer\Http\Response\Response;
+use Scriptmancer\Http\Session\Session;
 
 class SessionMiddleware implements MiddlewareInterface
 {

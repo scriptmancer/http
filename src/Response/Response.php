@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Response;
+namespace Scriptmancer\Http\Response;
 
 use GuzzleHttp\Psr7\Response as PsrResponse;
 use GuzzleHttp\Psr7\Utils;
-use Nazim\Http\Cookie\Cookie;
-use Nazim\Http\Cookie\CookieJar;
+use Scriptmancer\Http\Cookie\Cookie;
+use Scriptmancer\Http\Cookie\CookieJar;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 

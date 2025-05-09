@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Middleware;
+namespace Scriptmancer\Http\Middleware;
 
-use Nazim\Http\Exception\HttpException;
-use Nazim\Http\Request\Request;
-use Nazim\Http\Response\Response;
+use Scriptmancer\Http\Exception\HttpException;
+use Scriptmancer\Http\Request\Request;
+use Scriptmancer\Http\Response\Response;
 
 class RateLimitMiddleware implements MiddlewareInterface
 {

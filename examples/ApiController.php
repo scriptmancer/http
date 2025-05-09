@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Examples;
+namespace Scriptmancer\Http\Examples;
 
-use Nazim\Http\Controller\ControllerInterface;
-use Nazim\Http\Exception\BadRequestException;
-use Nazim\Http\Exception\NotFoundException;
-use Nazim\Http\Request\Request;
-use Nazim\Http\Response\Response;
+use Scriptmancer\Http\Controller\ControllerInterface;
+use Scriptmancer\Http\Exception\BadRequestException;
+use Scriptmancer\Http\Exception\NotFoundException;
+use Scriptmancer\Http\Request\Request;
+use Scriptmancer\Http\Response\Response;
 
 class ApiController implements ControllerInterface
 {

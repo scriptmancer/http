@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Server;
+namespace Scriptmancer\Http\Server;
 
-use Nazim\Http\Exception\HttpException;
-use Nazim\Http\Middleware\MiddlewareInterface;
-use Nazim\Http\Middleware\MiddlewareStack;
-use Nazim\Http\Request\Request;
-use Nazim\Http\Response\Response;
+use Scriptmancer\Http\Exception\HttpException;
+use Scriptmancer\Http\Middleware\MiddlewareInterface;
+use Scriptmancer\Http\Middleware\MiddlewareStack;
+use Scriptmancer\Http\Request\Request;
+use Scriptmancer\Http\Response\Response;
 use Throwable;
 
 class Server

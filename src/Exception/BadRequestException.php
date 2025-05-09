@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Exception;
+namespace Scriptmancer\Http\Exception;
 
 use Throwable;
 

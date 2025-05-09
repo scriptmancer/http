@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Controller;
+namespace Scriptmancer\Http\Controller;
 
-use Nazim\Http\Request\Request;
-use Nazim\Http\Response\Response;
+use Scriptmancer\Http\Request\Request;
+use Scriptmancer\Http\Response\Response;
 
 interface ControllerInterface
 {

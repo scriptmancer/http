@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Cookie;
+namespace Scriptmancer\Http\Cookie;
 
 use Countable;
 use Iterator;

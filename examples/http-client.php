@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Nazim\Http\Client\HttpClient;
+use Scriptmancer\Http\Client\HttpClient;
 
 // Create an HTTP client
 $client = new HttpClient([

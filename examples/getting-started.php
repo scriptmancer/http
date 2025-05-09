@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Nazim\Http\Request\Request;
-use Nazim\Http\Response\Response;
-use Nazim\Http\Server\Server;
+use Scriptmancer\Http\Request\Request;
+use Scriptmancer\Http\Response\Response;
+use Scriptmancer\Http\Server\Server;
 
 // Step 1: Create a request from globals
 $request = Request::fromGlobals();

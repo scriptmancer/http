@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Nazim\Http\Middleware\ContentTypeMiddleware;
-use Nazim\Http\Middleware\MiddlewareInterface;
-use Nazim\Http\Request\Request;
-use Nazim\Http\Response\Response;
-use Nazim\Http\Server\Server;
+use Scriptmancer\Http\Middleware\ContentTypeMiddleware;
+use Scriptmancer\Http\Middleware\MiddlewareInterface;
+use Scriptmancer\Http\Request\Request;
+use Scriptmancer\Http\Response\Response;
+use Scriptmancer\Http\Server\Server;
 
 // Create a custom middleware
 class LoggingMiddleware implements MiddlewareInterface

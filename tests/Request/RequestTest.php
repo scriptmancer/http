@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Tests\Request;
+namespace Scriptmancer\Http\Tests\Request;
 
 use GuzzleHttp\Psr7\ServerRequest;
-use Nazim\Http\Request\Request;
+use Scriptmancer\Http\Request\Request;
 use PHPUnit\Framework\TestCase;
 
 class RequestTest extends TestCase

@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Nazim\\Http\\": "src/"
+            "Scriptmancer\\Http\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nazim\\Http\\Tests\\": "tests/"
+            "Scriptmancer\\Http\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",

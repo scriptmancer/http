@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Client;
+namespace Scriptmancer\Http\Client;
 
 use GuzzleHttp\Client as GuzzleClient;
-use Nazim\Http\Response\Response;
+use Scriptmancer\Http\Response\Response;
 use Psr\Http\Message\ResponseInterface;
 
 class HttpClient

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Middleware;
+namespace Scriptmancer\Http\Middleware;
 
-use Nazim\Http\Request\Request;
-use Nazim\Http\Response\Response;
+use Scriptmancer\Http\Request\Request;
+use Scriptmancer\Http\Response\Response;
 
 class CacheMiddleware implements MiddlewareInterface
 {

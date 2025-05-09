@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Uri;
+namespace Scriptmancer\Http\Uri;
 
 use GuzzleHttp\Psr7\Uri as PsrUri;
 use Psr\Http\Message\UriInterface;

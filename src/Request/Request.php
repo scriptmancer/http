@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Request;
+namespace Scriptmancer\Http\Request;
 
 use GuzzleHttp\Psr7\ServerRequest;
 use GuzzleHttp\Psr7\UploadedFile;
 use GuzzleHttp\Psr7\Uri;
-use Nazim\Http\Cookie\CookieJar;
-use Nazim\Http\Session\Session;
+use Scriptmancer\Http\Cookie\CookieJar;
+use Scriptmancer\Http\Session\Session;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\UriInterface;
 

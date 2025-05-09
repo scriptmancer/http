@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Session;
+namespace Scriptmancer\Http\Session;
 
 class Session
 {

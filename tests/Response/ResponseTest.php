@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Nazim\Http\Tests\Response;
+namespace Scriptmancer\Http\Tests\Response;
 
 use GuzzleHttp\Psr7\Response as PsrResponse;
-use Nazim\Http\Response\Response;
+use Scriptmancer\Http\Response\Response;
 use PHPUnit\Framework\TestCase;
 
 class ResponseTest extends TestCase

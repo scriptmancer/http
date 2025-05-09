@@ -1,6 +1,6 @@
-# Nazim HTTP
+# Scriptmancer HTTP
 
-HTTP foundation layer for the Nazim framework. This package provides a lightweight, modern, and PSR-7 compliant HTTP implementation.
+HTTP foundation layer for the Scriptmancer framework. This package provides a lightweight, modern, and PSR-7 compliant HTTP implementation.
 
 ## Requirements
 
@@ -10,7 +10,7 @@ HTTP foundation layer for the Nazim framework. This package provides a lightweig
 ## Installation
 
 ```bash
-composer require nazim/http
+composer require scriptmancer/http
 ```
 
 ## Features
@@ -35,9 +35,9 @@ composer require nazim/http
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Nazim\Http\Request\Request;
-use Nazim\Http\Response\Response;
-use Nazim\Http\Server\Server;
+use Scriptmancer\Http\Request\Request;
+use Scriptmancer\Http\Response\Response;
+use Scriptmancer\Http\Server\Server;
 
 // Create a request from globals
 $request = Request::fromGlobals();
@@ -184,7 +184,7 @@ $response = $server->handle($request, $handler);
 ### HTTP Client for Making API Requests
 
 ```php
-use Nazim\Http\Client\HttpClient;
+use Scriptmancer\Http\Client\HttpClient;
 
 // Create a client
 $client = new HttpClient([
@@ -215,13 +215,6 @@ Check the `examples` directory for more detailed examples:
 - `middleware-server.php`: Using middleware
 - `http-client.php`: Making API requests
 - `response-types.php`: All available response types
-
-## Integration with Nazim Framework
-
-The HTTP package is designed to work seamlessly with other Nazim framework components:
-
-- **Piri Router**: Route HTTP requests to appropriate controllers
-- **Kiler DI Container**: Manage dependencies and services
 
 ## License
 
