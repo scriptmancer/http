@@ -1,6 +1,6 @@
 {
-    "name": "nazim/http",
-    "description": "HTTP foundation for Nazim framework",
+    "name": "scriptmancer/http",
+    "description": "HTTP foundation layer made by Scriptmancer",
     "type": "library",
     "license": "MIT",
     "authors": [
